@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-@61e9i9^_&8dsuv-5%c_0p^pui-knidd9--8b=j50$2c0c++_+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [justaskus.herokuapp.com]
+ALLOWED_HOSTS = ['justaskus.herokuapp.com']
 
 
 # Application definition
@@ -85,7 +85,7 @@ DATABASES = {
         'USER': 'sjcmksomfefnfd',
         'PASSWORD': '3c40f3194d389df2756d8c7615ffb36644906c8a2044b5fdcbcf8f2ce38c3280',
         'HOST': 'ec2-34-231-42-166.compute-1.amazonaws.com',
-        'PORT': 5432'',
+        'PORT': '5432',
     }
 }
 
